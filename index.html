@@ -6,26 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Snowboarding at Whistler</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <script>
-        let choice = confirm("Do you like to ski and snowboard?");
-        if (choice == false) {
-            window.location.assign('https://www.tiktok.com/@zakki.mm/video/7100474006117108997?is_from_webapp=v1&item_id=7100474006117108997');
-        }
+        doYouBoard()
     </script>
     <script>
-        let color = prompt("What is your favorite color");
-        let option = confirm("Would you like to change the background to your color?");
-        if (option == true) {
-            document.body.style.backgroundColor = color;
-        }
+       choosingBackgroundColor()
     </script>
     <header>
         <h1>
             <script>
-                let name = prompt("What is your name?");
-                document.write(name + " at Whistler")
+                Name()
             </script>
         </h1>
         <nav>
