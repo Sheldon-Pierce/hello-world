@@ -8,8 +8,26 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <script>
+        let choice = confirm("Do you like to ski and snowboard?");
+        if (choice == false) {
+            window.location.assign('https://www.tiktok.com/@zakki.mm/video/7100474006117108997?is_from_webapp=v1&item_id=7100474006117108997');
+        }
+    </script>
+    <script>
+        let color = prompt("What is your favorite color");
+        let option = confirm("Would you like to change the background to your color?");
+        if (option == true) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
     <header>
-        <h1>Snowboarding at Whistler</h1>
+        <h1>
+            <script>
+                let name = prompt("What is your name?");
+                document.write(name + " at Whistler")
+            </script>
+        </h1>
         <nav>
             <ul>
                 <li>
@@ -21,7 +39,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main>  
         <img id="village" src="whistler-village-bc.jpg" alt="Whistler Village">
         <section class="sidebyside">
             <h2>Mountain Runs</h2>
@@ -31,7 +49,9 @@
                 the Whistler Mountain Bike Park, and sightseeing on the PEAK 2 PEAK Gondola.<a href="https://www.whistlerblackcomb.com/the-mountain/about-the-mountain/trail-maps.aspx">1</a></p>
         </section>
         <section class="sidebyside">
-            <h2>Ski Lessons</h2>
+            <h2>
+                Ski Lessons
+            </h2>
             <img id="lessons" src="ski lessons.jpg" alt="Ski Lessons" srcset="">
             <p class="move">Rent the highest quality ski and snowboard equipment from premium brands and get personalized gear selections 
                 by our expert team. Book online for the best price, and get an extra 20% off 
