@@ -22,3 +22,17 @@ function Name(){
     let name = prompt("What is your name?");
     document.write(name + " at Whistler") ;
 }
+
+function areYouOver21(){
+    let age = confirm("Are you over 21")
+    while (age != true){
+        age = confirm("Try again, You need to be 21 to enter")
+    }
+}
+
+function numOfSnowboards(){
+    let num = prompt("How many snowboards would you like?")
+    for (let i = 0; i < num; i++) {
+        document.write("<img src='snowboard.webp' alt='snowboarding'>" + (i + 1))
+    }
+}
